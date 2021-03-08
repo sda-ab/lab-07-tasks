@@ -13,5 +13,5 @@
 3. Fie un vector k-sortat de dimensiune n (n <= 1 000 000) sortati eficient vectorul folosind un heap. Un vector se numeste k-sortat daca fiecare element se afla la maxim k pozitii distanta de pozitia sa in cadrul vectorului sortat. <b>Sortarea cu o complexitate mai mare sau egala cu O(nlogn) duce la penalizari.</b>
 
 	<b>Hint</b>: Se poate folosi ca si la punctul anterior un heap de dimensiune mai mica pentru rezolvarea problemei.
-```
-#### Puteti afla mai multe legat de modul de lucru [aici](https://github.com/sda-ab/student-setup#indicatii-rezolvare-laborator)
+
+Puteti afla mai multe legat de modul de lucru [aici](https://github.com/sda-ab/student-setup#indicatii-rezolvare-laborator)
