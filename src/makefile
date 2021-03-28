@@ -1,11 +1,17 @@
 CXX = g++
 CXXFLAGS = -g -Wall
 FLAGS = -g -Wall -o
-SHARED-LIB = liblab7.dll
+ifeq ($(OS), Windows_NT)
+    SHARED-LIB = liblab-template.dll
+else
+    SHARED-LIB = liblab-template.so
+endif
 TESTS_PATH = ../tests/
 EXECUTABLE = main
 BUILD_FOLDER_PATH = ../build/
 LIBS_PATH = ./libs
+
+
 
 build-lib:
 	$(CXX) *.c -I$(LIBS_PATH) -shared -fPIC $(CXXFLAGS) -o $(BUILD_FOLDER_PATH)$(SHARED-LIB)
