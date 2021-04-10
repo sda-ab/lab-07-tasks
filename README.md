@@ -20,7 +20,7 @@
 		vectorul k-sortat: 1, -7, -21, 21, 27, 8, 3 ,7 ,101, 91  
 		vectorul sortat:  -21, -7, 1, 3, 7, 8, 21, 27, 91, 101
 		
-	<b>Hint</b>:  Creati un min-heap de dimensiune k+1, populati-l cu primele k+1 elemente, apoi parcurgeti restul elementelor, la fiecare pas eliminati stocati varful in vectorul solutie si adaugati urmatorul element din vector in heap. Nu uitati ca la final sa adaugati si elementele ramase in heap in vectorul solutie.
+	<b>Hint</b>:  Creati un min-heap de dimensiune k+1, populati-l cu primele k+1 elemente, apoi parcurgeti restul elementelor, la fiecare pas stocati varful in vectorul solutie si adaugati urmatorul element din vector in heap. Nu uitati ca la final sa adaugati si elementele ramase in heap in vectorul solutie.
 
 
 Puteti afla mai multe legat de modul de lucru [aici](https://github.com/sda-ab/student-setup#indicatii-rezolvare-laborator)
