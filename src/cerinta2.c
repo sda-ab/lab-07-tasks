@@ -7,7 +7,7 @@
  * @param  *buffer: vectorul initial
  * @param  dimensiune: dimensiunea vectorului
  * @param  k: numarul de elemente returnate
- * @retval - vectorul cu cele mai mici k elemente din buffer
+ * @retval - vectorul cu cele mai mari k elemente din buffer
  */
 int *kMaxElem(int *buffer, int dimensiune, int k)
 {
