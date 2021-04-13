@@ -6,7 +6,7 @@
 
 
 
-1. Implementati in functiile din fisierul heap.c astfel incat sa puteti construi un <b>min heap</b>. Folosind functiile din fisierul heap.c implementati in fisierul cerinte1.c heapsort impreuna cu functia de eliminare a unui nod dintr-un heap. Sortarea se face descrescator la aceasta cerinta.
+1. Implementati functiile din fisierul heap.c astfel incat sa puteti construi un <b>min heap</b>. Folosind functiile din fisierul heap.c implementati in fisierul cerinte1.c heapsort impreuna cu functia de eliminare a unui nod dintr-un heap. Sortarea se face descrescator la aceasta cerinta.
 
 3. Implementati un algoritm de aflare a celor mai mari k numere dintr-un vector folosind un heap. <b>Sortarea intregului vector duce la penalizari.</b>
 	<ol>
